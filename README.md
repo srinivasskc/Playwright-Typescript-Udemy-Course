@@ -4,9 +4,10 @@ Udemy Course Link - https://www.udemy.com/course/master-playwright-docker-cucumb
 
 **Commands:**
 
-**Running the Tests:**
-_Run specific test at specific browser_      
+**Run specific test at specific browser**
+
 npx playwright test --headed --project=chromium
 
-_Run specific test_
+**Run specific test**
+
 npx playwright test hookTests.spec.ts --project=chromium --headed
