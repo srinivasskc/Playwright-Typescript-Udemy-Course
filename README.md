@@ -11,3 +11,8 @@ npx playwright test --headed --project=chromium
 **Run specific test**
 
 npx playwright test hookTests.spec.ts --project=chromium --headed
+
+
+# Dependencies to install
+Luxon - Library to work with date and time in javascript.
+Install: npm install -d luxon
